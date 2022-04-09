@@ -1,6 +1,9 @@
 
 # Github Tutorial
 
+[Github](https://github.com) is an online storage for code, kinda like google drive.  
+How it works is you clone a copy of the latest version of it to your local machine, you edit and make changes to the local version on your computer, then you push your local version with the latest changes to github for others to pull and update their code.
+
 ## Setup
 
 ### Step 1
@@ -19,7 +22,7 @@
 git clone https://github.com/laurenthsia81/GEMS_Taiwan-2022.git
 ```
 
-## Update code from github to loacl machine
+## Update code from github to local machine
 
 **Github desktop:** Press pull at the top of github desktop.  
 
