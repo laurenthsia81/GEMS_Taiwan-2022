@@ -2,6 +2,7 @@
 # Github Tutorial
 
 [Github](https://github.com) is an online storage for code, kinda like google drive.  
+
 How it works is you clone a copy of the latest version of it to your local machine, you edit and make changes to the local version on your computer, then you push your local version with the latest changes to github for others to pull and update their code.
 
 ## Setup
