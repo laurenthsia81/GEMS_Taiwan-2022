@@ -55,3 +55,9 @@ git push
 ## Practice 
 
 Now add a new html file and make it output hello world and use git or github to push it onto github
+
+```html
+<h1>
+  hello world
+</h1>
+```
