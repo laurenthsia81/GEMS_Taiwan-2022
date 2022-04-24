@@ -51,3 +51,7 @@ git commit -m 'anything'
 git push
 ```
 > pushes the code to github
+
+## Practice 
+
+Now add a new html file and make it output hello world and use git or github to push it onto github
