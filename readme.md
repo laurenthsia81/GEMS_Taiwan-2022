@@ -1,2 +1,2 @@
-# IGEM 2022 Wiki Code
+# iGEM 2022 Wiki Code
 hi
