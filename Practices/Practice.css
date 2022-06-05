@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /*Margins are used to create space around elements, outside of any defined borders*/
+    padding: 0; /*reate space around an element's content, inside of any defined borders*/
 }
 
 .logo {
@@ -12,7 +12,7 @@
     min-height: 100vh;
 }
 
-nav {
+nav {   /*refers back to the HTML*/
     background-color: antiquewhite;
     height: 60px;
     display: flex;
@@ -20,8 +20,8 @@ nav {
     justify-content: center;
 }
 
-.navList { 
-    display: flex;  /*sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex */
+.navList {  /*list of links, the bar at the top*/
+    display: flex;  /* flexible length on flexible items*//*sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex */
     flex-direction: row;
 }
 
@@ -45,11 +45,11 @@ article {
     min-height: calc(100vh - 60px);
 }
 
-p {
+p { /*the text in a pragraph*/
     font-size: 1.5em;
 }
 
-.container1 {
+.container1 { /*QUESTION*/
     display: flex;
     flex-direction: row;
 }
