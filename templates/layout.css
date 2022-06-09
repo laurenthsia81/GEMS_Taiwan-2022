@@ -6,7 +6,6 @@ body {
 h1 {
     font-size: 10em;
 }
-
 @font-face {
     font-family: myFont;
     src: url(../Fonts/Google-Sans.ttf);
