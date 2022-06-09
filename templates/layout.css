@@ -1,8 +1,13 @@
 body {
     background-image: url("../Images/backdrop.jpg");
     background-size: cover; 
-    font-family: url(../Fonts/SF-Pro-Display.ttf);  
+    font-family: myFont;
 }
 h1 {
     font-size: 10em;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../Fonts/Google-Sans.ttf);
 }
