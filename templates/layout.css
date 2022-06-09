@@ -1,6 +1,7 @@
 body {
     background-image: url("../Images/backdrop.jpg");
-    background-size: cover;   
+    background-size: cover; 
+    font-family: url(../Fonts/SF-Pro-Display.ttf);  
 }
 h1 {
     font-size: 10em;
