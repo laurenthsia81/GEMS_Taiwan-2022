@@ -19,7 +19,8 @@ h1 {
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }	
 .navbar-brand {
-    transform: translateX(-40%);
+    transform: translateX(-50%);
     left: 38%;
     position: absolute;
+    margin-top: 0.25rem !important;
   }
