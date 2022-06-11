@@ -26,9 +26,11 @@ h1 {
 .dropdown-item:active {
     background-color: rgb(234, 158, 5) !important;
 }
-.navbar-brand:focus,
 .navbar-brand:hover {
-    transition: all 0.2s ease-in-out;
+    transition: 0.3s;
     opacity: 0.5;
-    display:block
+}
+.navbar-brand {
+    transition: 0.3s;
+    opacity: 1;
 }
