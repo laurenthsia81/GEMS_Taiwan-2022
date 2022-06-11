@@ -20,6 +20,6 @@ h1 {
     .navbar .btn:hover{ background-color: rgb(234, 158, 5) !important; }
 }	
 .navbar {
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
-    }
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+}
