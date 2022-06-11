@@ -19,3 +19,7 @@ h1 {
 	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
     .navbar .btn:hover{ background-color: rgb(234, 158, 5) !important; }
 }	
+.navbar {
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    }
