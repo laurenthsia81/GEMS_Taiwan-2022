@@ -22,6 +22,7 @@ h1 {
 .navbar {
     backdrop-filter: blur(40px);
     -webkit-backdrop-filter: blur(40px);
+    font-size: 1.2rem;
 }
 .dropdown-item:active {
     background-color: rgb(234, 158, 5) !important;
@@ -33,4 +34,7 @@ h1 {
 .navbar-brand {
     transition: 0.3s;
     opacity: 1;
+}
+.dropdown-toggle::after {
+    content: none;
 }
