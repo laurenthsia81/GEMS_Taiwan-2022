@@ -1,9 +1,9 @@
 body {
-    /* background-image: url("../Images/test\ bkg\ 3.png");
+    /* background-image: url("../Images/Background.jpg");
     background-size: cover;  */
-    background: linear-gradient(-45deg, rgb(233, 190, 61), rgb(250, 194, 80), #fffa62, #ffff7c,rgb(255,255,255));
+    background: linear-gradient(-45deg, #fffa62, #ffb84e, #ffffc9);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
 	height: 100vh;
     font-family: myFont;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    font-size: 10em;
+    font-size: 5vw;
 }
 @font-face {
     font-family: myFont;
