@@ -1,13 +1,13 @@
 body {
-    /* background-image: url("../Images/Background.jpg");
-    background-size: cover;  */
-    background: linear-gradient(-45deg, #fffa62, #ffb84e, #ffffc9);
+    background-image: url("../Images/Background.jpg");
+    background-size: cover;
+    /* background: linear-gradient(-45deg, #fffa62, #ffb84e, #ffffc9);
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 10s ease infinite; */
 	height: 100vh;
     font-family: myFont;
 }
-@keyframes gradient {
+/* @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -17,7 +17,7 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 h1 {
     font-size: 5vw;
