@@ -1,6 +1,8 @@
 body {
-    background-image: url("../Images/Background.jpg");
+    background-image: url("../Images/Homepagep.png");
+	background-repeat: no-repeat; 
     background-size: cover;
+	background-color: #E7DCB7;
     /* background: linear-gradient(-45deg, #fffa62, #ffb84e, #ffffc9);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite; */
