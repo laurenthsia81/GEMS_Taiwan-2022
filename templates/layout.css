@@ -1,21 +1,15 @@
 body {
     /* background-image: url("../Images/Homepagep.png");
-<<<<<<< Updated upstream
-	background-repeat: no-repeat;
-=======
 	background-repeat: no-repeat; 
->>>>>>> Stashed changes
     background-size: cover;
 	background-color: #E7DCB7; */
     background: linear-gradient(-45deg, #fffa62, #ffb84e, #ffffc9);
 	background-size: 400% 400%;
-<<<<<<< Updated upstream
 	animation: gradient 5s ease infinite; 
-=======
-	animation: gradient 5s ease infinite;
->>>>>>> Stashed changes
 	height: 100vh;
     font-family: myFont;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 @keyframes gradient {
 	0% {
