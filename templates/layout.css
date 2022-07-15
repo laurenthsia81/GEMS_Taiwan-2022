@@ -64,9 +64,15 @@ h1 {
 	margin-right: auto;
 	width: 21%;
   }
+<<<<<<< Updated upstream
 .roosebelt {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
+=======
+  .bruh {
+	transform: translate(50%) !important;
+  }
+>>>>>>> Stashed changes
