@@ -4,12 +4,13 @@ body {
     background-size: cover;
 	background-color: #E7DCB7; */
     background: linear-gradient(-45deg, #fffa62, #ffb84e, #ffffc9);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite; 
-	height: 100vh;
+	/* background-size: 400% 400%;
+	animation: gradient 5s ease infinite;  */
+	/* height: 100vh; */
+	height: 400vh;
     font-family: myFont;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 @keyframes gradient {
 	0% {
