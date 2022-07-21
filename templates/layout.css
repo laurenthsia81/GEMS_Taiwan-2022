@@ -30,6 +30,8 @@ h1 {
 @font-face {
     font-family: myFont;
     src: url(../Fonts/SF-Pro-Display-Semibold.ttf);
+	/* src: url(../Fonts/courgette/SIL\ Open\ Font\ License.txt); */
+	/* src: url(../Fonts/mazora/Mazora.ttf); */
 }
 @media all and (min-width: 992px) {
 	.navbar .dropdown-menu-end{ right:0; left: auto;  }
