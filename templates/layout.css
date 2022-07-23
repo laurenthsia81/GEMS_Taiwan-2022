@@ -7,10 +7,7 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite; 
 	height: 100vh;
-<<<<<<< Updated upstream
 	/* height: 400vh; */
-=======
->>>>>>> Stashed changes
     font-family: myFont;
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,10 +65,10 @@ h1 {
 	margin-right: auto;
 	width: 21%;
   }
-  body{
+  /* body{
 	background: url(https://picsum.photos/id/98/600/400) fixed no-repeat;
 	background-size: cover;
-  }
+  } */
 
   #myBackgroundOverlay{
 	background-color: rgba(0, 0, 0, 0);
