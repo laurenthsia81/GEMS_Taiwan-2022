@@ -7,7 +7,10 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite; 
 	height: 100vh;
+<<<<<<< Updated upstream
 	/* height: 400vh; */
+=======
+>>>>>>> Stashed changes
     font-family: myFont;
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,8 +33,6 @@ h1 {
 @font-face {
     font-family: myFont;
     src: url(../Fonts/SF-Pro-Display-Semibold.ttf);
-	/* src: url(../Fonts/courgette/SIL\ Open\ Font\ License.txt); */
-	/* src: url(../Fonts/mazora/Mazora.ttf); */
 }
 @media all and (min-width: 992px) {
 	.navbar .dropdown-menu-end{ right:0; left: auto;  }
@@ -67,12 +68,21 @@ h1 {
 	margin-right: auto;
 	width: 21%;
   }
-.roosebelt {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-  .bruh {
-	transform: translate(50%) !important;
+  body{
+	background: url(https://picsum.photos/id/98/600/400) fixed no-repeat;
+	background-size: cover;
+  }
+
+  #myBackgroundOverlay{
+	background-color: rgba(0, 0, 0, 0);
+  }
+  
+  #titleText{
+	font-size: 8vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	color: rgba(0, 0, 0, 1);
   }
