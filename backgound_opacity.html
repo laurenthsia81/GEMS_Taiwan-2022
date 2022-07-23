@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Backgound Opacity Example</title>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../layout.css">
-    <title>iGEM Wiki</title>
 
     <style>
       body{
-        /* background: url(https://picsum.photos/id/98/600/400) fixed no-repeat; */
+        background: url(https://picsum.photos/id/98/600/400) fixed no-repeat;
         background-size: cover;
       }
 
       #myBackgroundOverlay{
-        background-color: hex();
+        background-color: rgba(0, 0, 0, 0);
       }
       
       #titleText{
@@ -31,106 +31,12 @@
     </style>
   </head>
 
-
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../layout.html"><img src="/Images/Website Logo.png" alt="logo" style="width:45px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mb-2 mb-lg-0 position-relative top-5 end-0 me-auto">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Project
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-start fade-down" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./description.html">Description</a></li>
-                    <li><a class="dropdown-item" href="./implementation.html">Implementation</a></li>
-                    <li><a class="dropdown-item" href="./safety.html">Safety</a></li>
-                    <li><a class="dropdown-item" href="./notebook.html">Notebook</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Wetlab
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-start fade-down" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./experiments.html">Experiments</a></li>
-                    <li><a class="dropdown-item" href="./parts.html">Parts</a></li>
-                    <li><a class="dropdown-item" href="./proof of concept.html">Proof of Concept</a></li>
-                    <li><a class="dropdown-item" href="./engineering.html">Engineering</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Drylab
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-start fade-down" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./modeling.html">Modeling</a></li>
-                    <li><a class="dropdown-item" href="./software.html">Software</a></li>
-                    <li><a class="dropdown-item" href="./hardware.html">Hardware</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    HP
-                    <!-- Changed to HP for now because of conflict with team -->
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-start fade-down" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./collaboration.html">Collaboration</a></li>
-                    <li><a class="dropdown-item" href="./education.html">Education</a></li>
-                    <li><a class="dropdown-item" href="./entrepreneurship.html">Entrepreneurship</a></li>
-                    <li><a class="dropdown-item" href="./human practice.html">Human Practice</a></li>
-                    <li><a class="dropdown-item" href="./contribution.html">Contribution</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Team
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-start fade-down" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="./members.html">Members</a></li>
-                    <li><a class="dropdown-item" href="./attributions.html">Attributions</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-outline-dark text-dark mx-3">Chatbot</button>
-            </div>
-          </div>
-        </nav>
-        <div id="myBackgroundOverlay">
-        <div class="container" style="height: 100vh">
-      <div class="position-absolute top-50 start-50 translate-middle">
-        <!-- <h1 id="titleText"><strong>Members</strong></h1> -->
-      </div>
-    </div>
-    <!-- <div class="container">
-      <div class="row center">
-        <img src="../../Images/Tree.png" style="height: 15000px; width: 250000000px">
-      </div>
-    </div> -->
-
-    <div class="container">
-
-      <div class="row center">
-        
-      </div>
-    <div class="container-fluid" style="height: 100vh">
-      <div class="position-absolute top-50 start-50 translate-middle">
-        <!-- <h1><strong>Team Members</strong></h1> -->
-      </div>
-    </div>
-    <div class="container">
-      <div class="row"></div>
-    </div>
-
+  <body>
     <div id="myBackgroundOverlay">
       <div class="container-fluid">
         <div class="row" style="height: 100vh;">
           <div class="col">
-            <h1 id="titleText"><strong>Members</strong></h1>
+            <h1 id="titleText"><strong>Hello World</strong></h1>
           </div>
         </div>
       </div>
@@ -138,7 +44,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg py-3" style="color: white;">
-            <!-- <img src="https://picsum.photos/id/273/600/600" alt="photo" class="img-fluid float-lg-start m-3 rounded"> -->
+            <img src="https://picsum.photos/id/273/600/600" alt="photo" class="img-fluid float-lg-start m-3 rounded">
             <h1>Title</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet saepe consequuntur harum tempora incidunt error, dolorum id officia minus eaque, ab deleniti voluptatibus? Sequi blanditiis recusandae perferendis maiores fuga magni tempora perspiciatis saepe vel! Velit enim sunt in, quod temporibus harum voluptate beatae qui perferendis obcaecati eum. Blanditiis dignissimos provident soluta veniam magni optio cupiditate quidem? Rem, expedita dignissimos. Tenetur, unde nemo, amet consequuntur nostrum repellat maiores fuga maxime adipisci esse neque tempore eveniet provident ullam eos, sapiente qui dolor voluptate molestias quas dolores! Possimus enim corporis saepe quibusdam, quis fuga molestiae qui atque. Soluta aperiam, cupiditate veniam ipsum molestiae placeat, autem eum suscipit laudantium odio vel ducimus porro quas. Hic, consequatur dolores aperiam tempora eum repellendus ipsa accusantium provident quo? Beatae ducimus repellat esse, odit ipsa dolores eaque minima quidem illo blanditiis, necessitatibus tempora officiis dolorum animi neque? Nam velit ex, necessitatibus voluptas accusantium numquam deleniti beatae sunt tenetur quisquam. Quaerat nostrum adipisci delectus laboriosam aperiam doloremque asperiores veritatis molestias sit inventore. Corporis aliquid quia quas, incidunt nihil vel sint non vero animi quasi similique minus ut error impedit! Doloribus omnis cumque ducimus velit! Porro quis ad, doloribus molestias illum ratione iste voluptatum laborum eligendi nihil facilis accusantium sit maxime ducimus cupiditate minus aliquid nulla corrupti temporibus incidunt eius tempora? Sunt fugit, dolorem voluptas expedita provident quod dolor numquam placeat. Neque, culpa consectetur, totam, illo aliquam ratione cupiditate dolorem officiis esse eligendi consequuntur? Inventore deserunt non aliquid officia omnis neque laborum nobis doloribus commodi, fugit temporibus sequi vel distinctio amet eius pariatur assumenda ipsum, ipsa quibusdam ducimus? Nobis provident sunt saepe perferendis, facere, inventore praesentium dolor mollitia eligendi eveniet laboriosam dicta fuga quos quibusdam ea, facilis asperiores iste. Eaque, facere quibusdam ab reiciendis sint dignissimos sequi tempore enim assumenda, distinctio corrupti expedita, deserunt dolore. Quo obcaecati vel nam a! Necessitatibus voluptatum corporis dignissimos quam quos adipisci quasi ut fuga repudiandae maiores repellat vitae, eos, quod asperiores possimus exercitationem magnam quae, blanditiis animi mollitia pariatur aperiam hic. Minima, sequi. Laboriosam commodi molestiae quam illo expedita labore est, recusandae dolorem cupiditate debitis! Earum iste magnam possimus porro, consequuntur quos, reprehenderit qui, velit corrupti quis cupiditate praesentium dicta accusantium fugit delectus. Enim impedit blanditiis molestias cumque nihil odit nisi nesciunt eveniet numquam. Nesciunt numquam atque, maiores distinctio vero et ratione voluptas temporibus suscipit nulla tenetur nihil dolorum veritatis neque pariatur! Id, nemo nisi fugit ipsa veritatis, saepe vitae a deleniti reprehenderit, dignissimos fugiat aspernatur? Quibusdam, vitae fugiat maxime quidem dicta consequatur quos suscipit praesentium natus impedit! Labore eaque, a nihil, id ducimus ut beatae autem esse aspernatur obcaecati quae error voluptate asperiores quis, nemo reiciendis dolorum doloremque veritatis! Consequatur ducimus id quod ea facere assumenda, nisi ratione totam tenetur nesciunt numquam, est maxime! Nobis, earum, inventore commodi architecto mollitia in animi perspiciatis ratione magnam repudiandae maxime accusamus magni aliquam dolore facilis facere quaerat quasi hic? Commodi ab laboriosam ipsum cumque facilis, quasi rerum ex, fuga explicabo unde esse? Libero cumque veniam minus rerum ut architecto dolore! Eius ipsam perspiciatis odio facere.
@@ -148,7 +54,7 @@
 
         <div class="row">
           <div class="col-lg py-3" style="color: white;">
-            <!-- <img src="https://picsum.photos/id/274/600/600" alt="photo2" class="img-fluid float-lg-end m-3 rounded"> -->
+            <img src="https://picsum.photos/id/274/600/600" alt="photo2" class="img-fluid float-lg-end m-3 rounded">
             <p>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt inventore nemo culpa debitis ullam ducimus temporibus, quae tempora ad voluptatem possimus libero, officiis nihil omnis itaque, doloribus ab? Adipisci explicabo modi rerum alias corrupti eligendi esse, tenetur pariatur mollitia ipsam quos voluptates doloremque excepturi voluptatibus possimus quasi laboriosam odit! Reiciendis incidunt voluptatibus quia nihil rem commodi eos alias deserunt praesentium. Debitis, illum ratione possimus cum odit officia voluptas commodi nulla totam cumque illo numquam expedita autem asperiores amet iure. Nostrum, nulla sequi molestiae dolorem doloremque fuga assumenda odio maiores expedita iusto itaque quis placeat minus beatae maxime eius odit. Molestias et nostrum reprehenderit animi odio voluptatum libero quis, itaque atque est amet! Velit perferendis nobis tempore voluptas quidem eos, possimus rerum doloribus, quasi voluptate quos corrupti! Libero tempore doloremque perspiciatis culpa amet possimus, similique cum sit voluptas, doloribus reiciendis beatae. Porro commodi ipsum consequatur quidem architecto quas, fuga exercitationem nostrum quos optio sequi ullam, officia iste, hic sint totam! Distinctio delectus accusantium tenetur, ab ipsa dolorum eaque omnis natus iusto blanditiis id molestias et quibusdam enim quia architecto labore at, consequatur commodi placeat nostrum, veritatis quaerat esse. Quisquam explicabo nulla et minus reprehenderit consequuntur ipsum aspernatur suscipit aut est vero doloremque, laboriosam quo sed, praesentium cumque? Optio quasi perspiciatis obcaecati, porro fuga voluptatem accusantium maiores labore. Expedita totam voluptatibus ut. Quasi magnam consequuntur voluptatum dicta optio odit quod quo maxime incidunt eos, voluptate obcaecati iusto? Minus odit voluptate sunt aperiam voluptatibus temporibus cumque voluptatum architecto nulla quia ea praesentium nemo et aliquid magni necessitatibus cupiditate facilis consequuntur, exercitationem recusandae modi vel deserunt iste. Atque culpa autem omnis, beatae officiis recusandae harum ea dignissimos nisi enim molestiae quisquam natus odit excepturi placeat architecto unde magni ipsa quae illo. In deleniti soluta alias, iusto esse ab, sequi, id blanditiis debitis eaque neque dolorum amet. Voluptatem veritatis eligendi, eum, repellat voluptas est hic amet qui velit sint ullam sunt officia aperiam accusamus expedita dolor fuga porro nobis veniam? Debitis voluptate unde error temporibus quibusdam et nostrum optio voluptatem totam quo assumenda odit sit vero animi voluptatibus sed odio, reprehenderit tempora consectetur. Architecto, eveniet totam! Quibusdam minus molestias ab iure nobis explicabo adipisci, asperiores corporis, inventore aliquam, ratione veritatis dolore obcaecati vel voluptates tempore voluptatibus. Adipisci facilis obcaecati unde itaque modi accusantium molestias sed impedit debitis perspiciatis qui, pariatur temporibus porro ex cupiditate quidem, nemo, accusamus necessitatibus placeat suscipit tenetur voluptatibus sunt. Reprehenderit, asperiores.
             </p>
@@ -156,35 +62,36 @@
         </div>
       </div>
     </div>
-    <script>
-      let overlay = document.getElementById('myBackgroundOverlay');
-      let title_text = document.getElementById('titleText')
-      var overlayOpacity;
-      var textOpacity;
 
-      window.addEventListener('scroll', function() {
-          var value = window.scrollY;
-          // console.log(value);
-          // console.log(window.innerHeight);
+	<script>
+        let overlay = document.getElementById('myBackgroundOverlay');
+        let title_text = document.getElementById('titleText')
+        var overlayOpacity;
+        var textOpacity;
 
-          if (value == 0){
-            overlay.style.backgroundColor = 'rgba(0,0,0,0)';
-            title_text.style.color = 'rgba(0,0,0,1)'
-          }
-          else{
-            if (value<=(window.innerHeight*0.4)){
-              overlayOpacity = (value/window.innerHeight)*2;
-              textOpacity = 1-overlayOpacity-0.1;
+        window.addEventListener('scroll', function() {
+            var value = window.scrollY;
+            // console.log(value);
+            // console.log(window.innerHeight);
+
+            if (value == 0){
+              overlay.style.backgroundColor = 'rgba(0,0,0,0)';
+              title_text.style.color = 'rgba(0,0,0,1)'
             }
             else{
-              overlayOpacity = 1.0;
-              textOpacity = 0;
+              if (value<=(window.innerHeight*0.7)){
+                overlayOpacity = (value/window.innerHeight)*2;
+                textOpacity = 1-overlayOpacity-0.1;
+              }
+              else{
+                overlayOpacity = 0.8;
+                textOpacity = 0;
+              }
+              
+              overlay.style.backgroundColor = 'rgba(10,5,2, '+overlayOpacity+')';
+              title_text.style.color = 'rgba(0,0,0,'+textOpacity+')';
             }
-            
-            overlay.style.backgroundColor = 'rgba(0,0,0,'+overlayOpacity+')';
-            title_text.style.color = 'rgba(0,0,0,'+textOpacity+')';
-          }
-      })
-  </script>
-
-</body>
+        })
+    </script>
+  </body>
+</html>
